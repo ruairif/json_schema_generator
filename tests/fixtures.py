@@ -3,7 +3,7 @@
 
 null_json_schema = """
     {
-        "$schema": "http://json-schema.org/draft-03/schema",
+        "$schema": "http://json-schema.org/draft-03/schema#",
         "type": "null",
         "id": "#",
         "required": true
@@ -12,7 +12,7 @@ null_json_schema = """
 
 number_json_schema = """
     {
-        "$schema": "http://json-schema.org/draft-03/schema",
+        "$schema": "http://json-schema.org/draft-03/schema#",
         "type": "number",
         "id": "#",
         "required": true
@@ -21,7 +21,7 @@ number_json_schema = """
 
 string_json_schema = """
     {
-        "$schema": "http://json-schema.org/draft-03/schema",
+        "$schema": "http://json-schema.org/draft-03/schema#",
         "type": "string",
         "id": "#",
         "required": true
@@ -30,7 +30,7 @@ string_json_schema = """
 
 boolean_json_schema = """
     {
-        "$schema": "http://json-schema.org/draft-03/schema",
+        "$schema": "http://json-schema.org/draft-03/schema#",
         "type": "boolean",
         "id": "#",
         "required": true
@@ -39,7 +39,7 @@ boolean_json_schema = """
 
 boolean_json_schema = """
     {
-        "$schema": "http://json-schema.org/draft-03/schema",
+        "$schema": "http://json-schema.org/draft-03/schema#",
         "type": "boolean",
         "id": "#",
         "required": true
@@ -48,7 +48,7 @@ boolean_json_schema = """
 
 array_json_schema = """
     {
-        "$schema": "http://json-schema.org/draft-03/schema",
+        "$schema": "http://json-schema.org/draft-03/schema#",
         "type": "array",
         "id": "#",
         "required": true
@@ -57,7 +57,7 @@ array_json_schema = """
 
 array_of_number_json_schema = """
     {
-        "$schema": "http://json-schema.org/draft-03/schema",
+        "$schema": "http://json-schema.org/draft-03/schema#",
         "type": "array",
         "id": "#",
         "required": true,
@@ -71,7 +71,7 @@ array_of_number_json_schema = """
 
 mixed_array_json_schema = """
     {
-        "$schema": "http://json-schema.org/draft-03/schema",
+        "$schema": "http://json-schema.org/draft-03/schema#",
         "type": "array",
         "id": "#",
         "required": true,
@@ -97,7 +97,7 @@ mixed_array_json_schema = """
 
 object_json_schema = """
     {
-        "$schema": "http://json-schema.org/draft-03/schema",
+        "$schema": "http://json-schema.org/draft-03/schema#",
         "type": "object",
         "id": "#",
         "required": true
@@ -106,7 +106,7 @@ object_json_schema = """
 
 object_with_properties_schema = """
     {
-        "$schema": "http://json-schema.org/draft-03/schema",
+        "$schema": "http://json-schema.org/draft-03/schema#",
         "type": "object",
         "id": "#",
         "required": true,
@@ -152,7 +152,7 @@ json_1 = """
 json_schema_1 = """
     {
         "type": "object",
-        "$schema": "http://json-schema.org/draft-03/schema",
+        "$schema": "http://json-schema.org/draft-03/schema#",
         "id": "#",
         "required": true,
         "properties": {

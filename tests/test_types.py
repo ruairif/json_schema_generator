@@ -24,7 +24,7 @@ class TestSchemaTypes(TestCase):
 
 
     def test_schema_verion(self):
-        self.assertEqual(Type.schema_version, "http://json-schema.org/draft-03/schema")
+        self.assertEqual(Type.schema_version, "http://json-schema.org/draft-03/schema#")
 
     def test_integer_type(self):
         gotten = Type.get_schema_type_for(type(1))

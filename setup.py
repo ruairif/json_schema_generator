@@ -4,7 +4,7 @@ from setuptools import setup
 
 setup(
     name='json_schema_generator',
-    version='0.6',
+    version='0.7',
     description='A simple json schema generator based on json resource with auto validation tools',
     author='Felipe Ramos Ferreira',
     author_email='perenecabuto@gmail.com',
@@ -18,7 +18,7 @@ setup(
     #package_data={'jsonschema_generator': ['test_template.py.tmpl']},
     include_package_data=True,
     install_requires=[
-        'jsonschema==2.3.0'
+        'jsonschema>=2.4.0<3.3.0'
     ],
     zip_safe=False,
 
@@ -33,10 +33,10 @@ setup(
         'Natural Language :: English',
         'Operating System :: OS Independent',
         'Programming Language :: Python',
-        'Programming Language :: Python :: 2.6',
         'Programming Language :: Python :: 2.7',
-        'Programming Language :: Python :: 3.3',
-        'Programming Language :: Python :: 3.4',
+        'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: 3.7',
+        'Programming Language :: Python :: 3.8',
         'Topic :: Software Development :: Code Generators',
         'Topic :: Software Development :: Quality Assurance',
         'Topic :: Software Development :: Testing',
